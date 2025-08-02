@@ -2,7 +2,7 @@
 # 🛒 E-commerce Database Backup System
 
 This project provides a **simple, secure backup and restore system** for a small e-commerce startup’s MySQL database (`ecommerce_db`).  
-It is designed for a **single VPS with limited storage**, focusing on backing up the `orders` table and enabling **quick recovery** from accidental data loss.  
+It is designed for a **single VPS (Virtual Private Server) with limited storage**, focusing on backing up the `orders` table and enabling **quick recovery** from accidental data loss.  
 The system uses **encrypted credentials**, **compressed backups**, and **clear logs** for **reliability** and **auditability**.
 
 ---
@@ -37,7 +37,7 @@ Set up the `ecommerce_db` database with a sample `orders` table:
 mysql -u root -p
 ```
 
-Then run the SQL script:
+Then run the SQL script create_ecommerce_db.sql which has the CREATE DATABASE, USE, CREATE TABLE, and INSERT INTO for the database and table :
 
 ```sql
 -- In MySQL shell
